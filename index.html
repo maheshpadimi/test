@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class = "main">
+            <h4 class = "title">Charge Sheet </h4>
+            <div class = "dropdown_container">
+            <select name = "units" id = "charge_units">
+                <option value="1unit">unit 1</option>
+                <option value="2unit">unit 2</option>
+                <option value="3unit">unit 3</option>
+                <option value="4unit">unit 4</option>
+                <option value="5unit">unit 5</option>
+                <option value="6unit">unit 6</option>
+                <option value="7unit">unit 7</option>
+                <option value="8unit">unit 8</option>
+                <option value="9unit">unit 9</option>
+                <option value="10unit">unit 10</option>
+            </select>
+            </div>
+            <div>
+                <button onclick="amount_handler()">Amount</button>
+            </div>
+            <p id="para"></p>
+            <div>
+                <button onclick="payHandler()" >Proceed To Pay</button>
+            </div>
+        </div>
+        <script src = "script.js" ></script>
+    </body>   
+</html>
